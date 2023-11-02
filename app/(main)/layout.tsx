@@ -27,7 +27,7 @@ const MainLayout = ({
     }
 
     return (
-        <div className="f-full flex dark:bg-[#1f1f1f">
+        <div className="h-full flex dark:bg-[#1f1f1f">
 
             <Navigation />
 
