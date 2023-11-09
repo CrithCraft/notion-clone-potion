@@ -27,6 +27,7 @@ import type * as shema from "../shema";
 declare const fullApi: ApiFromModules<{
   shema: typeof shema;
 }>;
+
 export declare const api: FilterApi<
   typeof fullApi,
   FunctionReference<any, "public">
